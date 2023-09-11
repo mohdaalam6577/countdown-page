@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #183D3D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    margin: 20px;
+    text-align: center;
+}
+
+.coundown{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer{
+    text-align: center;
+}
+
+.timer span{
+    display: block;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.timer .label{
+    font-size: 1.5rem;
+    color: #183D3D;
+}
+
+footer span{
+    color: red;
+}
